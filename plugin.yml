@@ -1,0 +1,14 @@
+name: SetNoteBlockPitchesPlugin
+main: Plugin.SetNoteBlockPitches.Main
+version: 1.0
+description: 放置並設定音階盒音調
+author: airabbi.Jessie
+api-version: 1.12
+website: codingbar.ai
+commands:
+  setnoteblock:
+    description: 放置並設定音階盒音調
+    usage: /<command> 想放置的音階盒座標x y z 音調(0-24)
+  setpitch:
+    description: 設定音階盒音調
+    usage: /<command> 想修改的音階盒座標x y z 音調(0-24)
